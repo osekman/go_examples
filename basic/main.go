@@ -23,6 +23,14 @@ func main() {
 	fmt.Printf("%#v %T, %#v %T, ", x, x, y, y)
 	fmt.Println()
 	fmt.Printf("%#v %T, ", x+y, x+y)
+	fmt.Println()
+
+	a := 15
+	if a%2 == 0 {
+		fmt.Printf("sayi cift, kalan %v", a%2)
+	} else {
+		fmt.Printf("sayi tek, kalan %v", a%2)
+	}
 }
 
 func yaz() {

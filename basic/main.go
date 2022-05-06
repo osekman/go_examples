@@ -44,6 +44,11 @@ func main() {
 	default:
 		fmt.Printf("yorumsuz %v", b)
 	}
+	fmt.Println()
+
+	for i := 0; i < 10; i += 2 {
+		fmt.Printf("sayi > %v \n", i)
+	}
 
 }
 

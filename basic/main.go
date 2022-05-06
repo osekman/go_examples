@@ -31,6 +31,18 @@ func main() {
 	} else {
 		fmt.Printf("sayi tek, kalan %v", a%2)
 	}
+
+	fmt.Println()
+
+	b := 10
+
+	switch b {
+	case 1:
+		fmt.Printf("düşük %v", b)
+	case 10:
+		fmt.Printf("iyi %v", b)
+	}
+
 }
 
 func yaz() {

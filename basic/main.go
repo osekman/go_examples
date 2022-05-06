@@ -39,8 +39,10 @@ func main() {
 	switch b {
 	case 1:
 		fmt.Printf("düşük %v", b)
-	case 10:
+	case 9:
 		fmt.Printf("iyi %v", b)
+	default:
+		fmt.Printf("yorumsuz %v", b)
 	}
 
 }
